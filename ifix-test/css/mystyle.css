@@ -1,34 +1,28 @@
-.price-tabs{
-	text-align: center;
+body{
+
 }
-.price-tabs ul{
-	list-style: none;
-	padding: 0;
+p{
+	margin: 0;
 }
-.price-tabs li {
-	padding: 1em;
-	border: solid 1px #ccc;
-}
-.price:hover {
-    box-shadow: 0 8px 12px 0 rgb(0 0 0 / 20%);
-}
-.price-tabs .price-header{
+
+.header{
+	background-color: #03c;
 	color: #fff;
-	background: #333;
-	border-color: #333;
-	font-size: 1.25em;
-	font-weight: 600;
-	padding: .8em;
 }
-.price-tabs .price-header.green{
-	background: #5a6;
-	border-color: #5a6;
+
+.container-topbar {
+	background: #fff;
+	color: #222;
+	text-align: center;
+	font-size: 1.25rem;
+	padding: 1rem 0;
 }
-.price-tabs .grey{
-	background: #ccc;
+.my-logo {
+	display: block;
+	width: 100%;
 }
-.price-tabs .price-tag{
-	font-size: 1.35em;
-	font-weight: 700;
-	padding: .72em;
+
+.contacts {
+	text-align: right;
 }
+
