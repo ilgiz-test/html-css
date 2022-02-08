@@ -1,0 +1,34 @@
+.price-tabs{
+	text-align: center;
+}
+.price-tabs ul{
+	list-style: none;
+	padding: 0;
+}
+.price-tabs li {
+	padding: 1em;
+	border: solid 1px #ccc;
+}
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgb(0 0 0 / 20%);
+}
+.price-tabs .price-header{
+	color: #fff;
+	background: #333;
+	border-color: #333;
+	font-size: 1.25em;
+	font-weight: 600;
+	padding: .8em;
+}
+.price-tabs .price-header.green{
+	background: #5a6;
+	border-color: #5a6;
+}
+.price-tabs .grey{
+	background: #ccc;
+}
+.price-tabs .price-tag{
+	font-size: 1.35em;
+	font-weight: 700;
+	padding: .72em;
+}
